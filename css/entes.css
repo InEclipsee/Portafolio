@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*
+{
+    max-width: 100%
+}
+
+:root
+{
+    color: #fff;
+}
+
+nav
+{
+    background-color: #242424;
+    height: 4vw;
+    width: 100vw; 
+    font-family: 'Silkscreen', cursive;
+}
+
+.navbar-brand, .nav-link, .nav-item
+{
+    color: #C89B7B;
+}
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: #242424;
+    color: #C89B7B;
+    height: 3vw;
+
+}
+
+.btn
+{
+    background-color: #973737;
+    border-color: #5c2929;
+}
+
+#intro
+{
+    background-color: #4b4b4b;
+    color: #fff;
+    height: 900px;
+    padding-top: 70px;
+    padding-left: 8vw;
+}
+
+#dioses
+{
+    background-color: #7a2a8f;
+    color: #fff;
+    height: 900px;
+    padding-top: 70px;
+    padding-left: 8vw;
+}
+
+#monarcas
+{
+    background-color: #c92664;
+    color: #fff;
+    height: 900px;
+    padding-top: 70px;
+    padding-left: 8vw;
+}
+
+#entes
+{
+    background-color: #a00f00;
+    color: #fff;
+    height: 900px;
+    padding-top: 70px;
+    padding-left: 8vw;
+}
+
+#inmortales
+{
+    background-color: #181818;
+    color: #fff;
+    height: 900px;
+    padding-top: 70px;
+    padding-left: 8vw;
+}
+
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}

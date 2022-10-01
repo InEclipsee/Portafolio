@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*
+{
+    max-width: 100%
+}
+
+nav
+{
+    background-color: #3f3f3f;
+    height: 4vw;
+    width: 100vw; 
+    font-family: 'Silkscreen', cursive;
+
+}
+
+.navbar-brand, .nav-link, .nav-item
+{
+    color: #C89B7B;
+}
+
+.btn
+{
+    background-color: #417B5A;
+    border-color: #29573d;
+}
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: #3f3f3f;
+    height: 3vw;
+}
+
+#carruselBandas
+{
+    height: 700px;
+    width: 700px;
+}
+
+#carruselBase
+{
+    background-color: #000;
+}
+
+#offCanvasPlaylist
+{
+    background-color: #292929;
+    color: #fff;
+}
+
+#bmth
+{
+    background: url('../img/sempiternal.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+
+}
+
+#slipknot
+{
+    background: url('../img/allhope.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+
+}
+
+#strokes
+{
+    background: url('../img/rca.png') ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+
+}
+
+#gorillaz
+{
+    background: url('../img/plastic.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+
+}
+
+#mcr
+{
+    background: url('../img/blackparade.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+
+}
+
+#tentacion
+{
+    background: url('../img/17_xxx.webp') ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+
+}

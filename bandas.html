@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bandStyle.css">
+
+  <title>Música k me gusta</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand active" aria-current="page" href="index.html"> <img src="img/40431.png" alt="Logo"
+          height="30" width="30"> Eclipse </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navItems">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tank.html">Servicio de tanqueo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="entes.html">Mundo de mi cabeza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bandas.html">Música k me gusta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row mx-auto" id="carruselBase">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <section class="container" style="background-color: black;">  
+        <div id="carruselBandas" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselBandas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide Bring me the horizon"></button>
+            <button type="button" data-bs-target="#carruselBandas" data-bs-slide-to="1" aria-label="Slide Slipknot"></button>
+            <button type="button" data-bs-target="#carruselBandas" data-bs-slide-to="2" aria-label="Slide The Strokes"></button>
+            <button type="button" data-bs-target="#carruselBandas" data-bs-slide-to="3" aria-label="Slide Gorillaz"></button>
+            <button type="button" data-bs-target="#carruselBandas" data-bs-slide-to="4" aria-label="Slide My Chemical Romance"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#"><img src="img/bmth.jpg" class="d-block w-100" alt="Bring me the horizon"></a>
+              
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bring Me The Horizon</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""><img src="img/slipknot.jpg" class="d-block w-200 h-100" alt="Slipknot"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Slipknot</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""><img src="img/strokes.jpg" class="d-block w-100" alt="The Strokes"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>The Strokes</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""><img src="img/gorillaz.jpg" class="d-block w-100" alt="Gorillaz"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Gorillaz</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""><img src="img/mcr.jpg" class="d-block w-100" alt="My Chemical Romance"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>My Chemical Romance</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselBandas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselBandas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      
+
+    </div>
+    <div class="col-5">
+    </div>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasPlaylist" aria-controls="offCanvasPlaylist">Ver un par de playlists que tenia por ahi</button>
+  </div>
+
+  <div id="bmth">
+    <div class="row">
+      <div class="col-3">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6IYPmM3xsOPL2XPSvf1ZAz?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="col-3">
+        <a href="https://open.spotify.com/album/6IYPmM3xsOPL2XPSvf1ZAz?si=kxFRFiPoQWixsOdkRgboRg" class="btn btn-primary btn-dark" target="_blank">Ir al album</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="slipknot">
+    <div class="row">
+      <div class="col-3">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0hFWapnP7orzXCMwNU5DuA?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="col-3">
+        <a href="https://open.spotify.com/album/0hFWapnP7orzXCMwNU5DuA?si=CEJyjRwMSnytbsHOhIbSUw" class="btn btn-primary btn-dark" target="_blank">Ir al album</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="strokes">
+    <div class="row">
+      <div class="col-3">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4WnkQO4xD9ljQooB3VIxCV?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="col-3">
+        <a href="https://open.spotify.com/album/4WnkQO4xD9ljQooB3VIxCV?si=i9dVZkfWQ3-iTUHb77UBEA" class="btn btn-primary btn-dark" target="_blank">Ir al album</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="gorillaz">
+    <div class="row">
+      <div class="col-3">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2dIGnmEIy1WZIcZCFSj6i8?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="col-3">
+        <a href="https://open.spotify.com/album/2dIGnmEIy1WZIcZCFSj6i8?si=qhIsoxUhRICmbDy7xQAaOA" class="btn btn-primary btn-dark" target="_blank">Ir al album</a>
+      </div>
+    </div>
+  </div>
+  
+  <div id="mcr">
+    <div class="row">
+      <div class="col-3">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0FZK97MXMm5mUQ8mtudjuK?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="col-3">
+        <a href="https://open.spotify.com/album/0FZK97MXMm5mUQ8mtudjuK?si=N1oxl2GST_KiThmJogQCCA" class="btn btn-primary btn-dark" target="_blank">Ir al album</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offCanvasPlaylist" aria-labelledby="offCanvasLabel">
+    <div class="offcanvas-header" style="background-color: #3f3f3f;">
+      <h5 class="offcanvas-title" id="offCanvasLabel">Playlist</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3OG2y99Y7CL31RvrS1wh7y?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </p>
+      <p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EIZKgEm1BpHBR?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </p>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

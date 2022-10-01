@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+*
+{
+    max-width: 100%
+}
+
+nav
+{
+    background-color: #464661;
+    height: 4vw;
+    width: 100vw; 
+    font-family: 'Silkscreen', cursive;
+}
+
+.navbar-brand, .nav-link, .nav-item
+{
+    color: #C89B7B;
+}
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: #464661;
+    color: #C89B7B;
+    height: 3vw;
+
+}
+
+#presentacion
+{
+    background-color: #417B5A;
+    height: 825px;
+    padding-top: 100px;
+    padding-left: 8vw;
+}
+
+#druida
+{
+    background-color: #fc8a09;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+}
+
+#dk
+{
+    background-color: #922b2b;
+    color: antiquewhite;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 8vw;
+}
+
+#paladin
+{
+    background-color: #d493cf;
+    height: 1000px;
+    padding-left: 8vw;
+    padding-top: 100px;
+}
+
+.btn
+{
+    background-color: #C89B7B;
+    border-color: #83624a;
+}
